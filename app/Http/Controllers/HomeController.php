@@ -8,7 +8,7 @@ use App\Models\User;
 class HomeController extends Controller
 {
     public function index(){
-       return view('home.userpage');
+       return view('home.userpae');
     }
     
     public function redirect(){
